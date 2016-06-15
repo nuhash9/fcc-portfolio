@@ -1,0 +1,154 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  background-color: #4F86C6;
+  color: white;
+  width: 30%;
+  height: 100%;
+  position: fixed;
+  margin: 0;
+  float: left;
+  /*box-shadow: 2px 0px 5px 0 rgba(0,0,0,0.5);*/
+}
+
+#main .me {
+  text-align: center;
+  margin: calc(50% - 100px) auto 0 auto;
+  position: relative;
+  font-family: 'Bitter', serif;
+}
+
+#main .me img {
+  display: block;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+#main .social {
+  text-align: center;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#main .social a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding-right: 4px;
+}
+
+#main nav {
+  position: absolute;;
+  top: 50%;
+  right: 0;
+  text-align: right;
+}
+#main nav ul {
+  list-style: none;
+  padding: 0 10px 0 0;
+  margin: 0;
+  color: #2E294E;
+}
+#main nav ul li {
+  font-size: 15px;
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+#main nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+#main nav ul li a:hover {
+  font-size: 16px;
+}
+
+.active {
+  color: white;
+  font-size: 16px !important;
+}
+
+.heading {
+  font-family: 'Passion One', cursive;
+  font-size: 82px;
+  font-weight: 400;
+  color: #6C49B8;
+  margin-bottom: 0;
+}
+
+.separator {
+  height: 1px;
+  width: 100%;
+  background-color: #4F86C6;
+}
+
+.paragraph {
+  font-family: 'Raleway', sans-serif;
+  font-size: 38px;
+  margin-top: 0px;
+  color: #555;
+  line-height: 48px;
+}
+
+#content {
+  float: right;
+  width: 70%;
+}
+
+#content #about {
+  height: 100%;
+  margin: 50px 20px 0px 20px;
+}
+#content #about .heading {
+  font-size: 92px;
+}
+#content #about .paragraph {
+  font-size: 48px;
+  margin-top: 48px;
+}
+
+#content #portfolio {
+  height: 100%;
+  padding: 50px 20px 0px 20px;
+  background-color: #eee;
+}
+
+#content #find-me {
+  height: 100%;
+  padding: 50px 20px 0px 20px;
+}
+
+
+
+@media screen and (max-width: 719px) {
+  #main .me {
+    position: relative;
+    top: 75px;
+    left: 0;
+  }
+  #main .me img {
+    height: 75px;
+    width: 75px;
+  }
+  #main .me h2 {
+    visibility: hidden;
+    margin-top: 0;
+  }
+  #main .me h2:before {
+    content: "NC";
+    display: block;
+    visibility: visible;
+  }
+
+  #main .social a {
+    padding-bottom: 10px;
+  }
+}
