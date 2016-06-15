@@ -7,7 +7,7 @@ body {
 #main {
   background-color: #4F86C6;
   color: white;
-  width: 30%;
+  width: 25%;
   height: 100%;
   position: fixed;
   margin: 0;
@@ -100,11 +100,10 @@ body {
 
 #content {
   float: right;
-  width: 70%;
+  width: 75%;
 }
 
 #content #about {
-  height: 100%;
   margin: 50px 20px 0px 20px;
 }
 #content #about .heading {
@@ -116,9 +115,35 @@ body {
 }
 
 #content #portfolio {
-  height: 100%;
-  padding: 50px 20px 0px 20px;
+
+  padding: 50px 20px 50px 20px;
   background-color: #eee;
+}
+
+#content .portfolio-wrapper {
+  background-color: #dedede;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+#content .portfolio-wrapper a .exhibit {
+  width: 380.1px;
+  //height: 239.7px;
+  margin: 20px 10px 0 10px;
+  display: inline-block;
+  font-family: 'Ubuntu', sans-serif;
+  color: #30306D;
+  transition: 0.25s ease-out;
+}
+#content .portfolio-wrapper .exhibit img {
+  width: 380.1px;
+  height: 239.7px;
+
+}
+#content .portfolio-wrapper a .exhibit:hover {
+    background-color: white;
 }
 
 #content #find-me {
