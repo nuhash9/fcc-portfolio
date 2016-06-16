@@ -9,6 +9,10 @@ a {
 }
 a:hover {
   color: rgba(98, 98, 98, 1);
+  text-decoration: none;
+}
+strong {
+  font-weight: bold;
 }
 
 #main {
@@ -27,6 +31,13 @@ a:hover {
   margin: calc(50% - 100px) auto 0 auto;
   position: relative;
   font-family: 'Bitter', serif;
+}
+#main .me h2 {
+  font-weight: bold;
+  max-width: 282px;
+  font-size: 28px;
+  padding: 0 2%;
+  margin: 20px auto;
 }
 
 #main .me img {
@@ -52,34 +63,35 @@ a:hover {
   padding-right: 4px;
 }
 
-#main nav {
+#main #navigate {
   position: absolute;;
   top: 50%;
   right: 0;
   text-align: right;
 }
-#main nav ul {
+#main #navigate ul {
   list-style: none;
   padding: 0 10px 0 0;
   margin: 0;
   color: #30306D;
 }
-#main nav ul li {
+#main #navigate ul li {
+  display: block;
   font-size: 15px;
   font-family: 'Fjalla One', sans-serif;
   text-transform: uppercase;
   padding-bottom: 5px;
 }
-#main nav ul li a {
+#main #navigate ul li a {
   text-decoration: none;
   color: inherit;
 }
-#main nav ul li a:hover {
+#main #navigate ul li a:hover {
   font-size: 16px;
 }
 
 .active {
-  color: white;
+  color: white !important;
   font-size: 16px !important;
 }
 
