@@ -1,7 +1,7 @@
 # fcc-portfolio
 A personal portfolio site created as a project for freeCodeCamp.
 
-![](http://i1146.photobucket.com/albums/o531/NuhashC/Screen%20Shot%202016-06-17%20at%2012.10.33_zpsny4e0hqd.png)
+![](https://farm8.staticflickr.com/7468/27937579156_578b1b4be8_o_d.png)
 
 ### Written with:
  * HTML
@@ -13,6 +13,6 @@ A personal portfolio site created as a project for freeCodeCamp.
  2. ~~Not mobile-ready, *yet*.~~ (fixed)
 
 ##### Now works on mobile
-![](http://i1146.photobucket.com/albums/o531/NuhashC/Screen%20Shot%202016-06-17%20at%2012.05.49_zps35fyqc6t.png)
+![](https://farm8.staticflickr.com/7632/27359199094_1bb308d904_o_d.png)
 
 Also on [codepen.io](codepen.io/nuhash9/full/beEamK).
