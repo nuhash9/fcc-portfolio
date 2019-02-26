@@ -1,5 +1,5 @@
-# fcc-portfolio
-A personal portfolio site created as a project for freeCodeCamp.
+# portfolio
+A personal portfolio site.
 
 ![](assets/this.png)
 
